@@ -1,6 +1,6 @@
 # diva-e EDS boilerplate generator
 
-This package allows you to clone the **diva-e EDS boilerplate repository** and quickly generate **boilerplate components**.
+This project allows you to clone the **diva-e EDS boilerplate repository** and quickly generate **boilerplate components**.
 
 ## Clone repository
 
