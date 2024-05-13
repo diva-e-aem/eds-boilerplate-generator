@@ -1,19 +1,18 @@
 # diva-e EDS boilerplate generator
 
-This project allows you to clone the **diva-e EDS boilerplate repository** and quickly generate **boilerplate components**.
+This project allows you to clone the **[diva-e EDS boilerplate repository](https://github.com/diva-e/eds-boilerplate)** and start as a new project.
 
-## Clone repository
+## Usage
 
 Use the command below to clone the diva-e EDS boilerplate repository into a folder of your choice:
 
 ```sh
-npx eds-generator clone <folder-name>
+mkdir some-folder-name && cd some-folder-name
+npm init eds-project
 ```
 
-## Generate components
-
-Use the command below to start the component generator and follow the displayed instructions:
+or simply
 
 ```sh
-npx eds-generator new
+npm init eds-project <folder-name>
 ```
