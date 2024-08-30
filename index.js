@@ -30,12 +30,12 @@ const generateProject = async ({projectName, projectType, contentSourceURL}) => 
   fs.cpSync("./src/shared/", projectPath, { recursive: true });
 
   if (projectType === XWALK_TYPE) {
-    fs.cpSync("./src/x-walk/", projectPath, { recursive: true }); // force is needed to overwrite the existing files
+    fs.cpSync("./src/x-walk/", projectPath, { recursive: true, force: true }); // force is needed to overwrite the existing files
 
   }
 
   if (projectType === DOC_BASED_TYPE) {
-    fs.cpSync("./src/doc-based/", projectPath, { recursive: true }); // force is needed to overwrite the existing files
+    fs.cpSync("./src/doc-based/", projectPath, { recursive: true, force: true }); // force is needed to overwrite the existing files
   }
 };
 
