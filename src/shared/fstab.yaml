@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: https://author-p140018-e1429411.adobeaemcloud.com/bin/franklin.delivery/diva-e-aem/xwalk-boilerplate/main
+    type: 'markup'
+    suffix: '.html'

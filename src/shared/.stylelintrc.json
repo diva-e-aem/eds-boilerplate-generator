@@ -1,0 +1,3 @@
+{
+  "extends": ["@pro-vision/stylelint-config-pv"]
+}
