@@ -2,7 +2,7 @@ import { Directive, directive } from 'lit/directive.js';
 import { AttributePart, nothing } from 'lit';
 
 import type { SidekickElement } from 'Helpers/sidekick/extractSidekickLibraryId';
-import { isSidekickLibraryActive } from 'Helpers/sidekick//isSidekickLibraryActive';
+import { isSidekickLibraryActive } from 'Helpers/sidekick/isSidekickLibraryActive';
 
 /**
  * Represents a directive for managing a sidekick library id.
