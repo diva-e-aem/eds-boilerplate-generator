@@ -1,5 +1,5 @@
-import { addClasses } from '../../utils/addClasses';
-import { getMetadata } from '../../utils/getMetadata';
+import { addClasses } from 'Utils/addClasses';
+import { getMetadata } from 'Utils/getMetadata';
 
 /**
  * Decorates the template and theme by adding classes to the body.
